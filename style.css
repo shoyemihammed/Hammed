@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(to top left, #1fa379, #76dd66);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-lin {
+    background-color: white;
+    display: flex;
+    place-content: space-between;
+}
+
+.first-lis {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: gray;
+    height: 100vh;
+    width: 10em;
+}
+
+.first-lis li {
+    margin-top: 60px;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 10px;
+    cursor: pointer;
+    text-align: right;
+    /* margin-left: -20px; */
+}
+
+.first-lis li:hover {
+    font-weight: bold;
+}
+
+.exit-imag {
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu-imag {
+    margin-right: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.imabe-box {
+    position: relative;
+}
+
+.arrows {
+    position: absolute;
+    left: 10px;
+    top: 12em;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    right: 10px;
+    top: 12em;
+    cursor: pointer;
+}
+
+/* .arrow:hover {
+    border: hidden;
+    border-radius: 2px;
+    padding: 15px;
+    background-color: rgb(48, 45, 45);
+} */
+
+.sign {
+    /* float: right; */
+    position: absolute;
+    right: 0;
+}
+
+.minus {
+    margin-top: 8px;
+}
+
+.the-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sections {
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    margin-top: 3px;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sections:hover {
+    color: black;
+}
+
+.sections01 {
+    background-color: white;
+    padding: 10px;
+}
+
+.border {
+    border: 1px solid gray;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.border nav:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 2cm;
+    text-align: center;
+}
+
+.par {
+    margin-left: 15px;
+}
+
+.wi {
+    width: 10cm;
+    box-shadow: 0px 0px 10px green;
+}
+
+.london,
+.paris {
+    background-color: white;
+    padding: 10px;
+}
